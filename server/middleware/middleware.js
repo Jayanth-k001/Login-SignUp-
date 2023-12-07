@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const userdb = require("../model/userSchema");
-const keysecret = "qwertyuiopasdfghjklzxcvbnmqwerty"
+const keysecret = ENTER YOUR SECRET KEY
 
 
 const authenticate = async(req,res,next)=>{
